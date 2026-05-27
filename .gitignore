@@ -9,3 +9,6 @@ desktop.ini
 
 # Temp
 *.log
+
+# Extension builds — distribute via GitHub Releases only
+*.vsix
