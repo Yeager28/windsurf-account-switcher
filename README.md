@@ -13,11 +13,22 @@
 
 ---
 
-## Windsurf Accounts & More
+## 💎 Windsurf Accounts & More
 
-**14-day trial accounts, Pro upgrades, bulk deals**
+<div align="center">
 
-📩 **@klevernot** — [Open Telegram](https://t.me/klevernot)
+<img src="https://img.shields.io/badge/14--day_Trials-✅-22d3ee?style=for-the-badge&labelColor=0f172a" alt="Trial Accounts">
+<img src="https://img.shields.io/badge/Pro_Upgrades-⚡-22d3ee?style=for-the-badge&labelColor=0f172a" alt="Pro Upgrades">
+<img src="https://img.shields.io/badge/Bulk_Deals-🔥-22d3ee?style=for-the-badge&labelColor=0f172a" alt="Bulk Deals">
+
+<br/>
+<br/>
+
+<a href="https://t.me/klevernot">
+  <img src="https://img.shields.io/badge/📩_Contact_@klevernot-Telegram-2AABEE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+</a>
+
+</div>
 
 ---
 
@@ -55,7 +66,7 @@
 
 ## Installation
 
-1. Download the latest `.vsix` from [Releases](https://github.com/Yeager28/windsurf-switcher/releases)
+1. Download the latest `.vsix` from [Releases](https://github.com/Yeager28/windsurf-account-switcher/releases)
 2. Open Windsurf / VS Code
 3. Press `Ctrl+Shift+P` → `Extensions: Install from VSIX...`
 4. Select the downloaded file
