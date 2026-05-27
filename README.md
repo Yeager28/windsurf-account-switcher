@@ -11,19 +11,19 @@
 
 ---
 
-<table align="center" style="border-collapse:separate;border-spacing:0;border:1px solid rgba(34,211,238,0.3);border-radius:12px;overflow:hidden;background:#0f172a;max-width:500px;width:100%;box-shadow:0 0 24px rgba(34,211,238,0.08)">
+<table align="center" style="border-collapse:separate;border-spacing:0;border:2px solid rgba(34,211,238,0.25);border-radius:14px;overflow:hidden;background:linear-gradient(180deg,#0f172a 0%,#0a0f1e 100%);max-width:520px;width:100%;box-shadow:0 0 40px rgba(34,211,238,0.1),0 0 80px rgba(34,211,238,0.05)">
   <tr>
-    <td align="center" style="padding:28px 32px 8px;background:linear-gradient(180deg,rgba(34,211,238,0.06) 0%,transparent 100%)">
-      <div style="font-size:22px;font-weight:800;color:#22d3ee;letter-spacing:-0.5px;text-shadow:0 0 20px rgba(34,211,238,0.3)">🛒 Buy Windsurf Accounts & More</div>
+    <td align="center" style="padding:30px 36px 12px;background:linear-gradient(180deg,rgba(34,211,238,0.08) 0%,transparent 60%)">
+      <div style="font-size:24px;font-weight:900;color:#22d3ee;letter-spacing:-0.6px;text-shadow:0 0 30px rgba(34,211,238,0.4),0 2px 4px rgba(0,0,0,0.3)">🛒 Buy Windsurf Accounts &amp; More</div>
     </td>
   </tr>
   <tr>
-    <td align="center" style="padding:8px 32px 4px">
-      <div style="font-size:14px;color:#94a3b8;font-weight:500">14-day trials &nbsp;·&nbsp; Pro upgrades &nbsp;·&nbsp; Bulk deals</div>
+    <td align="center" style="padding:6px 36px 0">
+      <div style="font-size:14px;color:#94a3b8;font-weight:600;letter-spacing:0.2px">14-day trials &nbsp;·&nbsp; Pro upgrades &nbsp;·&nbsp; Bulk deals</div>
     </td>
   </tr>
   <tr>
-    <td align="center" style="padding:18px 32px 26px">
+    <td align="center" style="padding:20px 36px 28px">
       <a href="https://t.me/klevernot">
         <img src="https://img.shields.io/badge/📩 @klevernot-Open Telegram-2AABEE?style=for-the-badge&logo=telegram&logoColor=white" alt="@klevernot on Telegram">
       </a>
