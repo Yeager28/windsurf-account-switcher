@@ -1,6 +1,6 @@
 <h1 align="center">Windsurf Account Switcher & Manager</h1>
 
-<p align="center"><strong>Windsurf Account Switcher — Multi-account pool manager for Windsurf IDE</strong></p>
+<p align="center"><strong>Windsurf Account Switcher &mdash; Multi-account pool manager for Windsurf IDE</strong></p>
 
 <p align="center">
   <a href="#features">Features</a> &nbsp;·&nbsp;
