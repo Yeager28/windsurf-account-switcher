@@ -14,7 +14,7 @@
 <table align="center" style="border-collapse:separate;border-spacing:0;border:1px solid #283447;border-radius:10px;overflow:hidden;background:#0f172a;max-width:480px;width:100%">
   <tr>
     <td align="center" style="padding:22px 28px 10px">
-      <div style="font-size:20px;font-weight:700;color:#22d3ee;letter-spacing:-0.3px">🛒 Buy Windsurf Accounts</div>
+      <div style="font-size:20px;font-weight:700;color:#22d3ee;letter-spacing:-0.3px">🛒 Buy Windsurf Accounts & More</div>
       <div style="font-size:13px;color:#64748b;margin-top:6px">14-day trials &nbsp;·&nbsp; Pro upgrades &nbsp;·&nbsp; Bulk deals</div>
     </td>
   </tr>
