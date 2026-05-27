@@ -1,143 +1,93 @@
-# Windsurf Switcher by Klevernot
+<h1 align="center">Windsurf Switcher</h1>
 
-> Seamless multi-account pool manager for Windsurf IDE — auto-rotates before rate limits hit
+<p align="center"><strong>Multi-account pool manager for Windsurf IDE</strong></p>
 
 <p align="center">
-  <a href="#features">Features</a> &bull;
-  <a href="#installation">Installation</a> &bull;
-  <a href="#usage">Usage</a> &bull;
-  <a href="#configuration">Configuration</a> &bull;
-  <a href="#windsurf-accounts--more">Accounts</a> &bull;
-  <a href="#license">License</a>
+  <a href="#features">Features</a> &nbsp;·&nbsp;
+  <a href="#install">Install</a> &nbsp;·&nbsp;
+  <a href="#usage">Usage</a> &nbsp;·&nbsp;
+  <a href="#settings">Settings</a>
 </p>
 
 ---
 
-## 💎 Windsurf Accounts & More
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/14--day_Trials-✅-22d3ee?style=for-the-badge&labelColor=0f172a" alt="Trial Accounts">
-<img src="https://img.shields.io/badge/Pro_Upgrades-⚡-22d3ee?style=for-the-badge&labelColor=0f172a" alt="Pro Upgrades">
-<img src="https://img.shields.io/badge/Bulk_Deals-🔥-22d3ee?style=for-the-badge&labelColor=0f172a" alt="Bulk Deals">
+<table align="center" style="border-collapse:separate;border-spacing:0;border:1px solid #283447;border-radius:8px;overflow:hidden;background:#0f172a;max-width:520px;width:100%">
+  <tr>
+    <td align="center" style="padding:20px 24px;border-bottom:1px solid #283447">
+      <strong style="font-size:16px;color:#22d3ee">Windsurf Accounts &amp; More</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding:14px 24px;border-bottom:1px solid #283447">
+      <img src="https://img.shields.io/badge/14--day_Trials-Available-22d3ee?style=flat-square&labelColor=0f172a" alt="Trial Accounts">
+      &nbsp;
+      <img src="https://img.shields.io/badge/Pro_Upgrades-Available-22d3ee?style=flat-square&labelColor=0f172a" alt="Pro Upgrades">
+      &nbsp;
+      <img src="https://img.shields.io/badge/Bulk_Deals-Available-22d3ee?style=flat-square&labelColor=0f172a" alt="Bulk Deals">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding:16px 24px">
+      <a href="https://t.me/klevernot">
+        <img src="https://img.shields.io/badge/Contact_%40klevernot-Telegram-2AABEE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br/>
-<br/>
-
-<a href="https://t.me/klevernot">
-  <img src="https://img.shields.io/badge/📩_Contact_@klevernot-Telegram-2AABEE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-</a>
-
-</div>
-
----
 
 ## Features
 
-### Auto-Switch Engine
-- **10-layer defense** — monitors quota depletion, rate limits, model tier restrictions, and gRPC capacity in real-time
-- **Seamless rotation** — switches to the best account before you notice, preserving your conversation
-- **Smart selection** — picks the account with the highest remaining credits, skipping expired or rate-limited ones
-- **LRU ordering** — moves used accounts to the back of the pool automatically
+| | |
+|---|---|
+| **Auto-Switch** | Monitors quota, rate limits, model tier, gRPC capacity — rotates before you notice |
+| **Smart Selection** | Picks the highest-credit account, skips expired and rate-limited ones |
+| **Batch Import** | Add accounts from text or JSON in one click |
+| **Quota Bars** | Real-time daily & weekly bars per account — green / yellow / red |
+| **Fingerprint Rotation** | 6-ID rotation on every switch — accounts stay isolated |
+| **Pool Dashboard** | Health status, stats, and activity log at a glance |
+| **Dark Theme** | Matches VS Code / Windsurf native dark mode |
+| **Multi-Language** | English, Russian |
 
-### Account Management
-- **Batch import** — add accounts from text (email:password, one per line) or JSON
-- **Manual switch** — click to instantly rotate to any account
-- **Quota monitoring** — real-time daily & weekly quota bars per account
-- **Labels** — tag accounts for easy filtering and search
-
-### Device Fingerprint
-- **6-ID rotation** — rotates machine ID, storage UUID, and device hashes on every switch
-- **Prevent linking** — server sees a fresh device each time, accounts stay isolated
-- **One-click reset** — reset fingerprint manually anytime
-
-### Pool Dashboard
-- **Health status** — at-a-glance pool health (Healthy / Warning / Critical / Empty)
-- **Stats** — available, depleted, rate-limited, expired, total counts
-- **Activity log** — timestamped log of all switches, refreshes, and actions
-
-### UI
-- **Basecoat + TailwindCSS** — shadcn/ui-quality components in vanilla JS
-- **Dark mode** — native dark theme matching VS Code / Windsurf
-- **Multi-language** — English, Russian
-- **Keyboard shortcuts** — `Ctrl+Shift+S` to switch, `Ctrl+Shift+A` to batch add
-
----
-
-## Installation
+## Install
 
 1. Download the latest `.vsix` from [Releases](https://github.com/Yeager28/windsurf-account-switcher/releases)
 2. Open Windsurf / VS Code
-3. Press `Ctrl+Shift+P` → `Extensions: Install from VSIX...`
+3. `Ctrl+Shift+P` → **Extensions: Install from VSIX...**
 4. Select the downloaded file
 5. Restart the editor
 
----
-
 ## Usage
 
-### Adding Accounts
-
-Click the **+** button in the sidebar to open the add dialog. Enter accounts one per line:
-
+**Add accounts** — Click **+** in the sidebar, enter one per line:
 ```
 email1@example.com password1
 email2@example.com password2
 ```
 
-Or import from JSON:
+**Switch accounts** — Click any account card, or let auto-switch handle it when credits run low.
 
-```json
-[{"email":"user@example.com","password":"pass123"}]
-```
+**Filter & sort** — Filter by plan (Trial / Pro / Free), sort by quota, days, email, or date.
 
-### Switching Accounts
-
-- **Auto** — the engine monitors quota and switches automatically when credits run low
-- **Manual** — click any account card to switch to it
-- **Smart Rotate** — click the shuffle button to check all accounts and switch to the best one
-- **Emergency** — use the panic switch command when you hit a rate limit
-
-### Monitoring Quota
-
-Each account shows daily and weekly quota bars:
-- **Green** (>50%) — healthy
-- **Yellow** (20-50%) — watch out
-- **Red** (<20%) — switch soon
-
-### Filtering & Sorting
-
-- Filter by plan type: **All / Trial / Pro / Free**
-- Sort by: quota, days left, plan type, email, newest, oldest
-- Search accounts by email, plan, or labels
-
----
-
-## Configuration
+## Settings
 
 Access via `Settings → Extensions → Windsurf Switcher`:
 
-| Setting | Type | Default | Description |
-|---------|------|---------|-------------|
-| `wam.autoRotate` | boolean | true | Auto-switch when quota below threshold |
-| `wam.autoRotateThreshold` | number | 5 | Quota % below which auto-switch triggers |
-| `wam.autoRotateTrialThreshold` | number | 5 | Same, for trial accounts |
-| `wam.autoRotateIntervalMinutes` | number | 2 | Background check interval (minutes) |
-| `wam.autoRotatePreferHighest` | boolean | true | Pick highest-quota account (not first available) |
-| `wam.rotateFingerprint` | boolean | true | Rotate device fingerprint on switch |
-| `wam.refreshOnSwitch` | boolean | false | Reload window after manual switch |
-| `wam.rotateUsedToEnd` | boolean | true | Move used accounts to end (LRU) |
-| `wam.language` | string | en | UI language (en / ru) |
-| `wam.clientType` | string | windsurf | Client type (windsurf / windsurf-next) |
-
----
-
-## License
-
-[MIT](LICENSE) &copy; klevernot
+| Setting | Default | Description |
+|---------|---------|-------------|
+| `wam.autoRotate` | `true` | Auto-switch when quota below threshold |
+| `wam.autoRotateThreshold` | `5` | Quota % that triggers auto-switch |
+| `wam.autoRotateIntervalMinutes` | `2` | Background check interval |
+| `wam.autoRotatePreferHighest` | `true` | Pick highest-quota account |
+| `wam.rotateFingerprint` | `true` | Rotate device fingerprint on switch |
+| `wam.refreshOnSwitch` | `false` | Reload window after manual switch |
+| `wam.rotateUsedToEnd` | `true` | Move used accounts to end (LRU) |
+| `wam.language` | `en` | UI language (en / ru) |
+| `wam.clientType` | `windsurf` | Client type (windsurf / windsurf-next) |
 
 ---
 
 <p align="center">
-  <sub>Built by <a href="https://t.me/klevernot">@klevernot</a> &bull; 14-day trials · Pro upgrades · Bulk deals</sub>
+  <sub>Built by <a href="https://t.me/klevernot">@klevernot</a></sub>
 </p>
