@@ -1,4 +1,4 @@
-<h1 align="center">Windsurf Switcher</h1>
+<h1 align="center">Windsurf Account Switcher & Manager</h1>
 
 <p align="center"><strong>Multi-account pool manager for Windsurf IDE</strong></p>
 
@@ -68,7 +68,7 @@ email2@example.com password2
 
 ## Settings
 
-Access via `Settings → Extensions → Windsurf Switcher`:
+Access via `Settings → Extensions → Windsurf Account Switcher`:
 
 | Setting | Default | Description |
 |---------|---------|-------------|
