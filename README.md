@@ -39,14 +39,22 @@
 |---|---|
 | **Auto-Switch** | Monitors quota, rate limits, model tier, gRPC capacity — rotates before you notice |
 | **Smart Selection** | Picks the highest-credit account, skips expired and rate-limited ones |
+| **Devin CLI Sync** | Optionally switch Devin CLI credentials alongside Windsurf |
 | **Batch Import** | Add accounts from text or JSON in one click |
-| **Quota Bars** | Real-time daily & weekly bars per account — green / yellow / red |
+| **Plan Breakdown** | Import results show Trial / Pro / Free counts with email listing |
+| **Quota Bars** | Real-time full-width daily & weekly bars per account — green / yellow / red |
 | **Fingerprint Rotation** | 6-ID rotation on every switch — accounts stay isolated |
 | **Pool Dashboard** | Health status, stats, and activity log at a glance |
-| **Dark Theme** | Matches VS Code / Windsurf native dark mode |
-| **Multi-Language** | English, Russian |
+| **Dark Theme** | Ocean Teal Dark — matches VS Code / Windsurf native dark mode |
+| **Multi-Language** | English, Russian, Chinese (all UI, tooltips, placeholders, toasts) |
 
 ## Install
+
+### From Marketplace (recommended)
+
+Search for **"Windsurf Account Switcher"** in the Windsurf Extensions panel and click Install. Auto-updates enabled by default.
+
+### From VSIX
 
 1. Download the latest `.vsix` from [Releases](https://github.com/Yeager28/windsurf-account-switcher/releases)
 2. Open Windsurf / VS Code
@@ -62,6 +70,8 @@ email1@example.com password1
 email2@example.com password2
 ```
 
+**Import results** show a plan breakdown — how many Trial, Pro, Free accounts were added, with free accounts listed individually.
+
 **Switch accounts** — Click any account card, or let auto-switch handle it when credits run low.
 
 **Filter & sort** — Filter by plan (Trial / Pro / Free), sort by quota, days, email, or date.
@@ -74,13 +84,15 @@ Access via `Settings → Extensions → Windsurf Account Switcher`:
 |---------|---------|-------------|
 | `wam.autoRotate` | `true` | Auto-switch when quota below threshold |
 | `wam.autoRotateThreshold` | `5` | Quota % that triggers auto-switch |
+| `wam.autoRotateTrialThreshold` | `5` | Same, for trial accounts |
 | `wam.autoRotateIntervalMinutes` | `2` | Background check interval |
 | `wam.autoRotatePreferHighest` | `true` | Pick highest-quota account |
 | `wam.rotateFingerprint` | `true` | Rotate device fingerprint on switch |
-| `wam.refreshOnSwitch` | `false` | Reload window after manual switch |
+| `wam.refreshOnSwitch` | `true` | Reload window after manual switch (auto-switch never reloads) |
 | `wam.rotateUsedToEnd` | `true` | Move used accounts to end (LRU) |
-| `wam.language` | `en` | UI language (en / ru) |
-| `wam.clientType` | `windsurf` | Client type (windsurf / windsurf-next) |
+| `wam.switchDevinCli` | `false` | Also switch Devin CLI account on switch |
+| `wam.language` | `en` | UI language (`en` / `ru` / `zh`) |
+| `wam.clientType` | `windsurf` | Client type (`windsurf` / `windsurf-next`) |
 
 ---
 
