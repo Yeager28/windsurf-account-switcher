@@ -50,12 +50,6 @@
 
 ## Install
 
-### From Marketplace (recommended)
-
-Search for **"Windsurf Account Switcher"** in the Windsurf Extensions panel and click Install. Auto-updates enabled by default.
-
-### From VSIX
-
 1. Download the latest `.vsix` from [Releases](https://github.com/Yeager28/windsurf-account-switcher/releases)
 2. Open Windsurf / VS Code
 3. `Ctrl+Shift+P` → **Extensions: Install from VSIX...**
