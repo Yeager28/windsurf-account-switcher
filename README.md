@@ -14,12 +14,12 @@
 <table align="center" style="border-collapse:separate;border-spacing:0;border:2px solid rgba(34,211,238,0.25);border-radius:14px;overflow:hidden;background:linear-gradient(180deg,#0f172a 0%,#0a0f1e 100%);max-width:520px;width:100%;box-shadow:0 0 40px rgba(34,211,238,0.1),0 0 80px rgba(34,211,238,0.05)">
   <tr>
     <td align="center" style="padding:30px 36px 12px;background:linear-gradient(180deg,rgba(34,211,238,0.08) 0%,transparent 60%)">
-      <div style="font-size:24px;font-weight:900;color:#22d3ee;letter-spacing:-0.6px;text-shadow:0 0 30px rgba(34,211,238,0.4),0 2px 4px rgba(0,0,0,0.3)">🛒 Buy Windsurf Accounts &amp; More</div>
+      <div style="font-size:24px;font-weight:900;color:#22d3ee;letter-spacing:-0.6px;text-shadow:0 0 30px rgba(34,211,238,0.4),0 2px 4px rgba(0,0,0,0.3)">🛒 Buy Windsurf Pro Accounts &amp; More</div>
     </td>
   </tr>
   <tr>
     <td align="center" style="padding:6px 36px 0">
-      <div style="font-size:14px;color:#94a3b8;font-weight:600;letter-spacing:0.2px">14-day trials &nbsp;·&nbsp; Pro upgrades &nbsp;·&nbsp; Bulk deals</div>
+      <div style="font-size:14px;color:#94a3b8;font-weight:600;letter-spacing:0.2px">14 days pro account Windsurf &nbsp;·&nbsp; ChatGPT accounts &nbsp;·&nbsp; Bulk deals</div>
     </td>
   </tr>
   <tr>
@@ -91,5 +91,5 @@ Access via `Settings → Extensions → Windsurf Account Switcher`:
 ---
 
 <p align="center">
-  <sub>Built by <a href="https://t.me/klevernot">@klevernot</a></sub>
+  <sub>Built by <a href="https://t.me/klevernot">@klevernot</a> &bull; 14 days pro Windsurf &middot; ChatGPT &middot; Bulk deals</sub>
 </p>
