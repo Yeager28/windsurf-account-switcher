@@ -1,11 +1,11 @@
-<h1 align="center">Windsurf Account Switcher & Manager</h1>
+﻿<h1 align="center">Windsurf Account Switcher & Manager</h1>
 
 <p align="center"><strong>Multi-account pool manager for Windsurf IDE &amp; Devin CLI</strong></p>
 
 <p align="center">
-  <a href="#features">Features</a> &nbsp;·&nbsp;
-  <a href="#install">Install</a> &nbsp;·&nbsp;
-  <a href="#usage">Usage</a> &nbsp;·&nbsp;
+  <a href="#features">Features</a> &nbsp;&middot;&nbsp;
+  <a href="#install">Install</a> &nbsp;&middot;&nbsp;
+  <a href="#usage">Usage</a> &nbsp;&middot;&nbsp;
   <a href="#settings">Settings</a>
 </p>
 
@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td align="center" style="padding:6px 36px 0">
-      <div style="font-size:14px;color:#94a3b8;font-weight:600;letter-spacing:0.2px">14 days pro account Windsurf &nbsp;·&nbsp; ChatGPT accounts &nbsp;·&nbsp; Bulk deals</div>
+      <div style="font-size:14px;color:#94a3b8;font-weight:600;letter-spacing:0.2px">14 days pro account Windsurf &nbsp;&middot;&nbsp; ChatGPT accounts &nbsp;&middot;&nbsp; Bulk deals</div>
     </td>
   </tr>
   <tr>
@@ -35,18 +35,16 @@
 
 ## Features
 
-| | |
-|---|---|
-| **Auto-Switch** | Monitors quota, rate limits, model tier, gRPC capacity — rotates before you notice |
-| **Smart Selection** | Picks the highest-credit account, skips expired and rate-limited ones |
-| **Devin CLI Sync** | Optionally switch Devin CLI credentials alongside Windsurf |
-| **Batch Import** | Add accounts from text or JSON in one click |
-| **Plan Breakdown** | Import results show Trial / Pro / Free counts with email listing |
-| **Quota Bars** | Real-time full-width daily & weekly bars per account — green / yellow / red |
-| **Fingerprint Rotation** | 6-ID rotation on every switch — accounts stay isolated |
-| **Pool Dashboard** | Health status, stats, and activity log at a glance |
-| **Dark Theme** | Ocean Teal Dark — matches VS Code / Windsurf native dark mode |
-| **Multi-Language** | English, Russian, Chinese (all UI, tooltips, placeholders, toasts) |
+- **Auto-Switch** — Monitors quota, rate limits, model tier, gRPC capacity — rotates before you notice
+- **Smart Selection** — Picks the highest-credit account, skips expired and rate-limited ones
+- **Devin CLI Sync** — Optionally switch Devin CLI credentials alongside Windsurf
+- **Batch Import** — Add accounts from text or JSON in one click
+- **Plan Breakdown** — Import results show Trial / Pro / Free counts with email listing
+- **Quota Bars** — Real-time full-width daily & weekly bars per account — green / yellow / red
+- **Fingerprint Rotation** — 6-ID rotation on every switch — accounts stay isolated
+- **Pool Dashboard** — Health status, stats, and activity log at a glance
+- **Dark Theme** — Ocean Teal Dark — matches VS Code / Windsurf native dark mode
+- **Multi-Language** — English, Russian, Chinese (all UI, tooltips, placeholders, toasts)
 
 ## Install
 
@@ -59,10 +57,9 @@
 ## Usage
 
 **Add accounts** — Click **+** in the sidebar, enter one per line:
-```
-email1@example.com password1
-email2@example.com password2
-```
+
+    email1@example.com password1
+    email2@example.com password2
 
 **Import results** show a plan breakdown — how many Trial, Pro, Free accounts were added, with free accounts listed individually.
 
@@ -74,19 +71,17 @@ email2@example.com password2
 
 Access via `Settings → Extensions → Windsurf Account Switcher`:
 
-| Setting | Default | Description |
-|---------|---------|-------------|
-| `wam.autoRotate` | `true` | Auto-switch when quota below threshold |
-| `wam.autoRotateThreshold` | `5` | Quota % that triggers auto-switch |
-| `wam.autoRotateTrialThreshold` | `5` | Same, for trial accounts |
-| `wam.autoRotateIntervalMinutes` | `2` | Background check interval |
-| `wam.autoRotatePreferHighest` | `true` | Pick highest-quota account |
-| `wam.rotateFingerprint` | `true` | Rotate device fingerprint on switch |
-| `wam.refreshOnSwitch` | `true` | Reload window after manual switch (auto-switch never reloads) |
-| `wam.rotateUsedToEnd` | `true` | Move used accounts to end (LRU) |
-| `wam.switchDevinCli` | `false` | Also switch Devin CLI account on switch |
-| `wam.language` | `en` | UI language (`en` / `ru` / `zh`) |
-| `wam.clientType` | `windsurf` | Client type (`windsurf` / `windsurf-next`) |
+- `wam.autoRotate` (`true`) — Auto-switch when quota below threshold
+- `wam.autoRotateThreshold` (`5`) — Quota % that triggers auto-switch
+- `wam.autoRotateTrialThreshold` (`5`) — Same, for trial accounts
+- `wam.autoRotateIntervalMinutes` (`2`) — Background check interval
+- `wam.autoRotatePreferHighest` (`true`) — Pick highest-quota account
+- `wam.rotateFingerprint` (`true`) — Rotate device fingerprint on switch
+- `wam.refreshOnSwitch` (`true`) — Reload window after manual switch (auto-switch never reloads)
+- `wam.rotateUsedToEnd` (`true`) — Move used accounts to end (LRU)
+- `wam.switchDevinCli` (`false`) — Also switch Devin CLI account on switch
+- `wam.language` (`en`) — UI language (`en` / `ru` / `zh`)
+- `wam.clientType` (`windsurf`) — Client type (`windsurf` / `windsurf-next`)
 
 ---
 
